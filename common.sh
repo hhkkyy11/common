@@ -775,7 +775,7 @@ case "${COLLECTED_PACKAGES}" in
 true)
 echo "正在执行：给feeds.conf.default增加插件源"
 # 这里增加了源,要对应的删除/etc/opkg/distfeeds.conf插件源
-sed -i '/danshui/d' "${HOME_PATH}/feeds.conf.default"
+sed -i '/dahuilang/d' "${HOME_PATH}/feeds.conf.default"
 sed -i '/helloworld/d' "${HOME_PATH}/feeds.conf.default"
 sed -i '/passwall/d' "${HOME_PATH}/feeds.conf.default"
 
